@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+int m;
+float mile;
+printf(" Meters:");
+scanf("%d",&m);
+mile=m/1609.344;
+printf("miles: %.1f",mile);
+return 0;
+}
