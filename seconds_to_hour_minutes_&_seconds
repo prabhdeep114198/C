@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+int p,h,m,s;
+printf("enter value for p: ");
+scanf("%d",&p);
+printf("enter number of second:%d \n",p);
+h=(p/3600);
+printf("number of hours:%d \n",h);
+m= (p-(h*3600))/60;
+printf("number of minutes:%d \n",m);
+s= (3600-h);
+printf("number of seconds:%d \n",s);
+return 0;
+}
